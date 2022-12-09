@@ -1,0 +1,45 @@
+.card-box {
+    background-color: #856957;
+    color: #FFF;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 10px 10px 0 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+    border: 2px solid #734136;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.card-box:hover {
+    -webkit-transform: scale(1.01);
+    -webkit-filter: drop-shadow(10px 10px 5px rgba(0,0,0,.5))
+}
+
+.img-signo {
+    width: 90%;
+    height: 60%;
+    background-color: #FFF;
+    object-fit: contain;
+    border-radius: 2px;
+    border: 2px solid #734136;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.nome-signo {
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.periodo-signo {
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
